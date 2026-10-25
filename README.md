@@ -24,4 +24,6 @@ Zameen.com listings (Kaggle: "House Prices 2023 Dataset"), cleaned to 70,630 sal
 Based on listing (asking) prices, not final sale prices. Locations are encoded simply, and prices change over time.
 
 ## Demo app
-A frontend was built on Replit (currently rule-based; connecting this trained model is the next step).
+Try it live: https://pakistan-house-price-predictor-otzdbywklfu5qcnpdq9eso.streamlit.app/
+
+The app trains the model on the cleaned dataset when it first loads (about 30 seconds), then predicts prices for any city, area, property type, size, and number of rooms. It also shows how many similar listings the estimate is based on, and warns when data is thin.
